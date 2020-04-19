@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    //для ветки lesson3
+
     private static final String LIFECYCLE = "LIFE_CYCLE";
 
     @Override
@@ -74,5 +76,5 @@ public class MainActivity extends AppCompatActivity {
     private void makeToast(String message){
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
         Log.d(LIFECYCLE,message);
-    }
+     }
 }
